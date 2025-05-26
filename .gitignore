@@ -4,5 +4,3 @@ dbt_packages/
 logs/
 *.db
 *.csv
-dbt_olist/seeds/geolocation.csv
-dbt_olist/duckdb_olist_dev.db
