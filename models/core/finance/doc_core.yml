@@ -1,0 +1,18 @@
+models:
+  - name: fct_orders
+    description: Tabela core com as informações de tansações de cada cliente
+    columns:
+      - name: customer_id
+        description: Id unico para cada consumidor
+        tests:
+          - unique
+          - not_null
+
+  # - name: core_orders
+  #   description: Tabela core com as orders
+  #   columns:
+  #     - name: order_id
+  #       description: Id unico para order
+  #       tests:
+  #         - unique
+  #         - not_null
